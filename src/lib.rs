@@ -3,7 +3,7 @@ use std::{
         mpsc::{self},
         Arc, Mutex,
     },
-    thread::{self, Thread},
+    thread::{self},
 };
 
 pub struct ThreadPool {
